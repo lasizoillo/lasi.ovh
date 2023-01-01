@@ -1,0 +1,13 @@
+{% extends "anpu/templates/page.html" %}
+{% block content %}
+{{ super() }}
+    <script type="module">
+        (async () => {
+          if (document.getElementsByClassName("mermaid").length > 0) {
+            // import module for side effects
+            let mermaid = await import("https://cdn.jsdelivr.net/npm/mermaid@9/dist/mermaid.esm.min.mjs");
+            mermaid.initialize({ startOnLoad: true });
+          }
+        })();
+    </script>
+{% endblock %}
