@@ -14,7 +14,7 @@
             {% endfor %}
         {% else %}
             {% for subsection in section.subsections %}
-                {% set section = get_section(path="blog/_index.md") %}
+                {% set section = get_section(path=subsection) %}
 <article class="post-list">
     <header>
         <h1>
