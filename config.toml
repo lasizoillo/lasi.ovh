@@ -16,6 +16,7 @@ theme = "anpu"
 taxonomies = [
     { name = "categories", rss=true },
     { name = "tags", rss=true },
+    { name = "projects", rss=true},
 ]
 
 [markdown]
@@ -30,7 +31,7 @@ render_emoji = true
 # Put all your custom variables here
 anpu_menu_links = [
     { url = "$BASE_URL/ideas/", name = "Ideas" },
-#    { url = "$BASE_URL/proyectos/", name = "Proyectos" },
+    { url = "$BASE_URL/proyectos/", name = "Proyectos" },
     { url = "$BASE_URL/blog/", name = "Blog" },
 #    { url = "$BASE_URL/about/", name = "About" },
     { url = "$BASE_URL/tags/", name = "Tags" },
