@@ -3,11 +3,12 @@ title = "Gestionar Recetas con Hugo"
 description = "Implementación práctica y migración de krecipes a Hugo para gestionar recetas"
 +++
 
-# Recetas
-
 * [Proyecto en Github](https://github.com/lasizoillo/recetas-belen)
 * [Demo](http://recetas.lasi.ovh) (Tiene +500 recetas sin imágenes)
 * Estado: parado
+
+<!-- more -->
+# Recetas
 
 El proyecto incluye un importador de recetas desde krecipes. Tiene un tema de hugo hecho para manejar recetas bastante
 tocado por los siguientes motivos:
